@@ -1,0 +1,52 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #282c34;
+  color: #fff;
+}
+
+.App-nav {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.App-nav a {
+  color: #61dafb;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.App-nav a:hover {
+  text-decoration: underline;
+}
+
+.App-nav a.active {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.App-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1.5rem;
+}
+
+.App-main h1 {
+  margin: 0 0 0.75rem;
+  font-size: clamp(1.75rem, 4vw, 2.25rem);
+}
+
+.App-main p {
+  margin: 0;
+  max-width: 36rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.85);
+}
