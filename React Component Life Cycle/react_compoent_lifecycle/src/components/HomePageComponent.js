@@ -1,6 +1,6 @@
 // Import React and the Component base class so we can define a class-based component.
 import React, { Component } from 'react'
-
+import NameComponent from './NameComponent'
 // A class component holds state and lifecycle methods; "export default" makes this the module's main export.
 export default class HomePageComponent extends Component {
   // The constructor runs once when an instance of this component is created (before it appears on screen).
@@ -39,7 +39,7 @@ export default class HomePageComponent extends Component {
     return (
       <div>HomePageComponent
         {/* Curly braces embed JavaScript expressions—here, values from this.state. */}
-        name of the user is {this.state.name}
+        name of the user is <NameComponent name={this.state.name}></NameComponent>
         this is the roll number {this.state.rollnumber}
         {/* onChange fires on every keystroke; the arrow function forwards the event to changeName so `this` stays correct. */}
         <input onChange={(e)=>this.changeName(e)}></input>
