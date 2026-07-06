@@ -1,9 +1,10 @@
 # React-Fundamentals
 
-This repo contains two independent Create React App (CRA) learning projects. They share no code and have no backend, database, or environment variables.
+This repo contains independent Create React App (CRA) projects. They share no code and have no backend, database, or environment variables.
 
 - `ContextAPI/context_api` — React Context API + `react-router-dom` routing demo.
 - `React Component Life Cycle/react_compoent_lifecycle` — class component lifecycle demo.
+- `TimeTracker/time_tracker` — "Chrono", a fancy time tracker: stopwatch + per-session notes, logged sessions with durations/stats, persisted to `localStorage`.
 
 ## Cursor Cloud specific instructions
 
